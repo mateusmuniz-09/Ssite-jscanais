@@ -444,4 +444,17 @@ footer {
     p {
         font-size: 15px;
     }
+    .menu-link {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+        top: 60px;
+        padding: 10px;
+        background-color: #625d5d;
+        width: 20%;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+    }
 }
