@@ -10,16 +10,20 @@
    
 </head>
 <body>
-    <header class="cabecalho">
+     <nav>
         <div class="logo"><i class="fas fa-globe"></i> Site_Cliente</div>
-        <nav>
-         <ul>
+        <div class="menu-tracos" onclick="clikMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+      
+         <ul class="menu-link" id="menu">
             <li><a href="#home">HOME</a></li>
             <li><a href="#planos">PLANOS</a></li>
             <li><a href="#fale">CONTATO</a></li>
         </ul>
         </nav>
-    </header>
 
     <section class="inicial" id="home">
         <h1><i class="fas fa-handshake"></i> Bem-vindo à Nome Da Empresa</h1>
@@ -78,6 +82,6 @@
     <footer>
          <p class="direitos">&copy; 2024 Nome Da Empresa. Todos os direitos reservados.</p>
     </footer>
-    
+    <script src="menu-traços.js"></script>
 </body>
 </html>
