@@ -28,14 +28,18 @@ nav {
     margin-bottom: 2rem;
     padding: 10px;
 }
-
-.logo {
-    align-items: center;
-    font-size: 2rem;
-    margin-right: auto;
-    color: #000000;
-
-}
+    .logo {
+        font-size: 2rem;
+        border: solid 1px;
+        background-color: #000000;
+        color: #ffff;
+        padding: 10px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+    }
 
 .menu-tracos {
     display: none;
@@ -71,6 +75,11 @@ ul {
 
 li {
     text-decoration: none;
+}
+li :hover{
+    text-decoration: underline;
+
+
 }
 
 a {
@@ -161,7 +170,7 @@ h3 {
 }
 
 .box {
-    background-color: hsla(120, 84%, 29%, 0.2);
+    background-color: #2F4F4F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,10 +293,6 @@ footer {
         align-items: center;
     }
 
-    .logo {
-        font-size: 1.5rem;
-    }
-
     .menu-tracos {
         display: flex;
     }
@@ -329,12 +334,26 @@ footer {
     }
 
     .inicial {
-        width: 80%;
+        width: 90%;
     }
 
     .box,
     .card {
-        width: 90%;
+        width: 80%;
+    }
+    .card:hover {
+        width: 85%;
+        height: 430px;
+        border: solid 1px #0f0;
+        font-size: 1.5rem;
+        color: white;
+    }
+    .box:hover {
+        height: 430px;
+        width: 85%;
+        border: solid 1px #0f0;
+        font-size: 1.5rem;
+        color: white;
     }
 }
 
@@ -356,19 +375,34 @@ footer {
     }
 
     .inicial {
-        width: 90%;
-        padding: 1rem;
+        width: 80%;
     }
 
     .box,
     .card {
-        width: 100%;
+        width: 80%;
         /* Ocupa toda a largura */
-        height: auto;
+        height: 400px;
         /* Ajusta altura automaticamente */
     }
 
+    .card:hover {
+        width: 85%;
+        height: 430px;
+        border: solid 1px #0f0;
+        font-size: 1.5rem;
+        color: white;
+    }
+    .box:hover {
+        height: 430px;
+        width: 85%;
+        border: solid 1px #0f0;
+        font-size: 1.5rem;
+        color: white;
+    }
+
+
     p {
-        font-size: 10px;
+        font-size: 15px;
     }
 }
