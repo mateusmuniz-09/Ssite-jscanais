@@ -19,26 +19,24 @@ body {
 
 nav {
     width: 100%;
-    height: 10vh;
-    padding: 20px;
+    height: 20vh;
+    padding: 30px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #ffff;
+    background-color: #808080	;
     margin-bottom: 2rem;
     padding: 10px;
 }
     .logo {
         font-size: 2rem;
-        border: solid 1px;
-        background-color: #000000;
         color: #ffff;
         padding: 10px;
-        border-radius: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-right: auto;
+        font-weight: bolder;
     }
 
 .menu-tracos {
@@ -63,7 +61,7 @@ nav {
 ul {
     display: flex;
     /* Itens em linha */
-    gap: 20px;
+    gap: 30px;
     /* Espaço entre os itens */
     list-style: none;
     /* Remove marcadores */
@@ -74,6 +72,7 @@ ul {
 }
 
 li {
+    font-size: 1.5rem;
     text-decoration: none;
 }
 li :hover{
@@ -83,15 +82,24 @@ li :hover{
 }
 
 a {
-    color: black;
+    color: #ffff;
     text-decoration: none;
     /* Remove sublinhado */
 }
 
-.par {
-    font-size: 20px;
+.banner{
+    width: 100%;
+    height: 500px;
 }
+.banner-img{
+width: 100%;
+height: 100%;
+overflow: hidden;
+object-fit: cover;
 
+
+
+}
 .inicial {
     background-color: hsla(120, 3%, 51%, 0.2);
     /* Fundo com transparência */
@@ -332,6 +340,15 @@ footer {
         font-size: 0.8rem;
 
     }
+    .banner{
+        width: 100%;
+        height: 300px;
+    }
+    .banner-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
 
     .inicial {
         width: 90%;
@@ -373,6 +390,15 @@ footer {
         gap: 5px;
         /* Menor espaço entre itens */
     }
+    .banner{
+        width: 100%;
+        height: 300px;
+    }
+    .banner-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
 
     .inicial {
         width: 80%;
