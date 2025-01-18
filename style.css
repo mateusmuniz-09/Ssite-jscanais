@@ -90,15 +90,21 @@ a {
 }
 
 .banner {
+<<<<<<< HEAD
     background-image: url(imagens/Black\ Elegeance\ Modern\ Offline\ Twitch\ Banner.png);
     background-size: cover;
+=======
+>>>>>>> f0299a169491798088763675604058e1bbcc05cc
     width: 100%;
     height: 500px;
 }
 
 .banner-img {
+<<<<<<< HEAD
    
     margin-left: 100%;
+=======
+>>>>>>> f0299a169491798088763675604058e1bbcc05cc
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -107,6 +113,7 @@ a {
 
 
 }
+<<<<<<< HEAD
 .banner-img.shop {
     margin-left: 0;
     width: 100%;
@@ -114,6 +121,8 @@ a {
     overflow: hidden;
     object-fit: cover;
 }
+=======
+>>>>>>> f0299a169491798088763675604058e1bbcc05cc
 
 .inicial {
     background-color: #2F4F4F;
@@ -350,6 +359,11 @@ footer {
     }
 
 
+<<<<<<< HEAD
+=======
+    }
+
+>>>>>>> f0299a169491798088763675604058e1bbcc05cc
     .banner {
         width: 100%;
         height: 300px;
