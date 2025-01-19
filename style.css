@@ -90,39 +90,34 @@ a {
 }
 
 .banner {
-<<<<<<< HEAD
-    background-image: url(imagens/Black\ Elegeance\ Modern\ Offline\ Twitch\ Banner.png);
+    background-image: url(imagens/Green\ Modern\ Gaming\ Channel\ Banner.png);
     background-size: cover;
-=======
->>>>>>> f0299a169491798088763675604058e1bbcc05cc
     width: 100%;
     height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner-img {
-<<<<<<< HEAD
    
     margin-left: 100%;
-=======
->>>>>>> f0299a169491798088763675604058e1bbcc05cc
     width: 100%;
     height: 100%;
     overflow: hidden;
     object-fit: cover;
+    object-position: center;
 
 
 
 }
-<<<<<<< HEAD
 .banner-img.shop {
-    margin-left: 0;
+    margin-left:0;
     width: 100%;
     height: 100%;
     overflow: hidden;
     object-fit: cover;
+    object-position: center;
 }
-=======
->>>>>>> f0299a169491798088763675604058e1bbcc05cc
 
 .inicial {
     background-color: #2F4F4F;
@@ -359,21 +354,18 @@ footer {
     }
 
 
-<<<<<<< HEAD
-=======
-    }
-
->>>>>>> f0299a169491798088763675604058e1bbcc05cc
     .banner {
         width: 100%;
-        height: 300px;
+        height: 250px;
+        object-fit: cover;
     }
 
     .banner-img {
         width: 100%;
-        height: 100%;
-        overflow: hidden;
+        height: 100px;
         object-fit: cover;
+        object-position: center;
+        background-size: cover;
     }
 
     .inicial {
@@ -421,7 +413,7 @@ footer {
 
     .banner {
         width: 100%;
-        height: 300px;
+        height: 250px;
     }
 
     .banner-img {
@@ -429,6 +421,7 @@ footer {
         height: 100%;
         overflow: hidden;
         object-fit: cover;
+        background-size: cover;
     }
 
     .inicial {
